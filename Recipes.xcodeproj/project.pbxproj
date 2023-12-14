@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		E8075C872B16AA0E003425D9 /* RecipesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8075C862B16AA0E003425D9 /* RecipesApp.swift */; };
 		E8075C892B16AA0E003425D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8075C882B16AA0E003425D9 /* ContentView.swift */; };
-		E8075C8B2B16AA0E003425D9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8075C8A2B16AA0E003425D9 /* Item.swift */; };
+		E8075C8B2B16AA0E003425D9 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8075C8A2B16AA0E003425D9 /* Recipe.swift */; };
 		E8075C8D2B16AA12003425D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8075C8C2B16AA12003425D9 /* Assets.xcassets */; };
 		E8075C902B16AA12003425D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8075C8F2B16AA12003425D9 /* Preview Assets.xcassets */; };
 		E8075C9A2B16AA12003425D9 /* RecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8075C992B16AA12003425D9 /* RecipesTests.swift */; };
 		E8075CA42B16AA12003425D9 /* RecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8075CA32B16AA12003425D9 /* RecipesUITests.swift */; };
 		E8075CA62B16AA12003425D9 /* RecipesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8075CA52B16AA12003425D9 /* RecipesUITestsLaunchTests.swift */; };
+		E8075CB52B1D3AB8003425D9 /* SampleRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8075CB42B1D3AB8003425D9 /* SampleRecipes.swift */; };
+		E8075CB82B1D3E9B003425D9 /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = E8075CB72B1D3E9B003425D9 /* MarkdownUI */; };
+		E8075CBA2B1D61D1003425D9 /* AddRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8075CB92B1D61D1003425D9 /* AddRecipeView.swift */; };
+		E8075CBC2B1F8537003425D9 /* EditRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8075CBB2B1F8536003425D9 /* EditRecipeView.swift */; };
+		E8BD3F772B23BB3F00A3711F /* ManageCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD3F762B23BB3F00A3711F /* ManageCategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,7 @@
 		E8075C832B16AA0E003425D9 /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8075C862B16AA0E003425D9 /* RecipesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesApp.swift; sourceTree = "<group>"; };
 		E8075C882B16AA0E003425D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E8075C8A2B16AA0E003425D9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E8075C8A2B16AA0E003425D9 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		E8075C8C2B16AA12003425D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8075C8F2B16AA12003425D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E8075C952B16AA12003425D9 /* RecipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +51,10 @@
 		E8075C9F2B16AA12003425D9 /* RecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8075CA32B16AA12003425D9 /* RecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesUITests.swift; sourceTree = "<group>"; };
 		E8075CA52B16AA12003425D9 /* RecipesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E8075CB42B1D3AB8003425D9 /* SampleRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRecipes.swift; sourceTree = "<group>"; };
+		E8075CB92B1D61D1003425D9 /* AddRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeView.swift; sourceTree = "<group>"; };
+		E8075CBB2B1F8536003425D9 /* EditRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecipeView.swift; sourceTree = "<group>"; };
+		E8BD3F762B23BB3F00A3711F /* ManageCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8075CB82B1D3E9B003425D9 /* MarkdownUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,9 +108,13 @@
 			children = (
 				E8075C862B16AA0E003425D9 /* RecipesApp.swift */,
 				E8075C882B16AA0E003425D9 /* ContentView.swift */,
-				E8075C8A2B16AA0E003425D9 /* Item.swift */,
+				E8075C8A2B16AA0E003425D9 /* Recipe.swift */,
 				E8075C8C2B16AA12003425D9 /* Assets.xcassets */,
 				E8075C8E2B16AA12003425D9 /* Preview Content */,
+				E8075CB42B1D3AB8003425D9 /* SampleRecipes.swift */,
+				E8075CB92B1D61D1003425D9 /* AddRecipeView.swift */,
+				E8075CBB2B1F8536003425D9 /* EditRecipeView.swift */,
+				E8BD3F762B23BB3F00A3711F /* ManageCategoryView.swift */,
 			);
 			path = Recipes;
 			sourceTree = "<group>";
@@ -146,6 +160,9 @@
 			dependencies = (
 			);
 			name = Recipes;
+			packageProductDependencies = (
+				E8075CB72B1D3E9B003425D9 /* MarkdownUI */,
+			);
 			productName = Recipes;
 			productReference = E8075C832B16AA0E003425D9 /* Recipes.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +235,9 @@
 				Base,
 			);
 			mainGroup = E8075C7A2B16AA0E003425D9;
+			packageReferences = (
+				E8075CB62B1D3E9B003425D9 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+			);
 			productRefGroup = E8075C842B16AA0E003425D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,9 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8BD3F772B23BB3F00A3711F /* ManageCategoryView.swift in Sources */,
 				E8075C892B16AA0E003425D9 /* ContentView.swift in Sources */,
-				E8075C8B2B16AA0E003425D9 /* Item.swift in Sources */,
+				E8075C8B2B16AA0E003425D9 /* Recipe.swift in Sources */,
 				E8075C872B16AA0E003425D9 /* RecipesApp.swift in Sources */,
+				E8075CB52B1D3AB8003425D9 /* SampleRecipes.swift in Sources */,
+				E8075CBC2B1F8537003425D9 /* EditRecipeView.swift in Sources */,
+				E8075CBA2B1D61D1003425D9 /* AddRecipeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,6 +616,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E8075CB62B1D3E9B003425D9 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E8075CB72B1D3E9B003425D9 /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8075CB62B1D3E9B003425D9 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
+			productName = MarkdownUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E8075C7B2B16AA0E003425D9 /* Project object */;
 }

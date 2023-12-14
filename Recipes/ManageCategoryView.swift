@@ -14,6 +14,7 @@ import SwiftData
 struct ManageCategoryView: View {
     @Environment(\.modelContext) private var modelContext
     @Query var categories: [RecipeCategory]
+    @Query var recipes: [Recipe]
 
     @State private var newCategoryName: String = ""
     @State private var isEditing: Bool = false
@@ -70,13 +71,21 @@ struct ManageCategoryView: View {
         }
     }
 
+
     private func deleteCategory(at offsets: IndexSet) {
         offsets.forEach { index in
-            let category = categories[index]
-            modelContext.delete(category)
+            let categoryToDelete = categories[index]
+            for recipe in recipes {
+                if let categoryIndex = recipe.category.firstIndex(where: { $0.id == categoryToDelete.id }) {
+                    recipe.category.remove(at: categoryIndex)
+                }
+            }
+
+            modelContext.delete(categoryToDelete)
         }
         try? modelContext.save()
     }
+
 }
 
 
