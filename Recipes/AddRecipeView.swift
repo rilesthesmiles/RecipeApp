@@ -10,58 +10,11 @@ import SwiftUI
 import MarkdownUI
 import SwiftData
 
-//struct AddRecipeView: View {
-//    // Looked up how to switch back to this view after adding a recipe, found some info about isPresented from these sources
-//    // https://developer.apple.com/documentation/swiftui/environmentvalues/ispresented
-//    //https://developer.apple.com/documentation/SwiftUI/View/sheet(isPresented:onDismiss:content:)
-//    // https://developer.apple.com/documentation/swiftui/environmentvalues/dismiss
-//    @Environment(\.dismiss) var dismiss
-//    @State private var title: String = ""
-//    @State private var author: String = ""
-//    @State private var timeRequired: String = ""
-//    @State private var servings: String = ""
-//    @State private var expertiseRequired: String = ""
-//    @State private var caloriesPerServing: String = "" // Temporary string to hold user input
-//    @State private var ingredients: String = ""
-//    @State private var instructions: String = ""
-//    @State private var category: String = ""
-//    @State private var favorite: Bool = false // Default value; you can change as needed
-//
-//    var onAdd: (Recipe) -> Void
-//
-//    var body: some View {
-//        NavigationView {
-//            Form {
-//                TextField("Title", text: $title)
-//                TextField("Author", text: $author)
-//                TextField("Time Required", text: $timeRequired)
-//                TextField("Servings", text: $servings)
-//                TextField("Expertise Required", text: $expertiseRequired)
-//                TextField("Calories per Serving", text: $caloriesPerServing)
-//                TextField("Ingredients", text: $ingredients, axis: .vertical)
-//                TextField("Instructions", text: $instructions, axis: .vertical)
-//                TextField("Category", text: $category)
-//                Toggle("Favorite", isOn: $favorite)
-//
-//                Button("Add Recipe") {
-////                    let calories = Double(caloriesPerServing) ?? 0.0
-//
-//                    let newRecipe = Recipe(
-//                        title: title, author: author, date: Date(), timeRequired: timeRequired,
-//                        servings: servings, expertiseRequired: expertiseRequired,
-//                        caloriesPerServing: caloriesPerServing, ingredients: ingredients,
-//                        instructions: instructions, category: category, favorite: favorite
-//                    )
-//                    
-//                    onAdd(newRecipe)
-//                    dismiss()
-//                    
-//                }
-//            }
-//            .navigationBarTitle("Add New Recipe")
-//        }
-//    }
-//}
+    // Looked up how to switch back to this view after adding a recipe, found some info about isPresented from these sources
+    // https://developer.apple.com/documentation/swiftui/environmentvalues/ispresented
+    //https://developer.apple.com/documentation/SwiftUI/View/sheet(isPresented:onDismiss:content:)
+    // https://developer.apple.com/documentation/swiftui/environmentvalues/dismiss
+
 
 
 struct AddRecipeView: View {
