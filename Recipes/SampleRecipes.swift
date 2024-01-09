@@ -393,5 +393,4 @@ let sampleRecipes = [
         category: [dessertsCategory],
         favorite: false
     )
-
 ]
